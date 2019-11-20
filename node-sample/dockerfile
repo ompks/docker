@@ -2,5 +2,5 @@ FROM  node:alpine
 
 #copy the main.js file form your local direcoty to container
 COPY  main.js  .
-# RUN   node main.js
+#command to run
 CMD  ["node", "main.js"]
